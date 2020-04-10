@@ -1,32 +1,175 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Artem's Landing Page</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/media.css">
+	<link rel="stylesheet" href="styles/fonts.css">
+	<link rel="stylesheet" href="libs/OwlCarousel2/css/owl.theme.default.css">
+	<link rel="stylesheet" href="libs/OwlCarousel2/css/owl.carousel.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="menu-wrapper">
+				<div class="menu">
+					<a href="index.html" class="logo">LOGO</a>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Team</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="banner">
+			<h1>LOGO</h1>
+		</div>
+	</header>
 
-	<head>
-	  <style>
-	    html, body, div { margin: 0; padding: 0;}
-	  </style>
-	</head>
 
-	<body>
-		<div id="d1" style="background-color: #b1ebb1;"></div>
-		<div id="d2" style="background-color: #fe7d7d;"></div>
-		<div id="d3" style="background-color: #b1ebb1;"></div>
+	<section class="news">
+		<div class="news-wrapper">
+			<h1>News</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fugit exercitationem accusantium atque illo, molestiae cum asperiores. Quod dolor minima eaque vel nulla. Cumque voluptatum adipisci expedita doloribus fugiat nesciunt optio. Corporis dolores cumque provident!</p>
+			
+			<!-- owl carousel starts -->
+			<div id="news_carousel" class="owl-carousel owl-theme owl-loaded">
+			    <div class="owl-stage-outer">
+			        <div class="owl-stage">
+			            <div class="owl-item owl-height"><a href="#"><img src="img/news/1.jpg" alt=""></a></div>
+			            <div class="owl-item owl-height"><a href="#"><img src="img/news/2.jpg" alt=""></a></div>
+			            <div class="owl-item owl-height"><a href="#"><img src="img/news/3.jpg" alt=""></a></div>
+			            <div class="owl-item owl-height"><a href="#"><img src="img/news/4.jpg" alt=""></a></div>
+			            <div class="owl-item owl-height"><a href="#"><img src="img/news/5.jpg" alt=""></a></div>
+			            <div class="owl-item owl-height"><a href="#"><img src="img/news/6.jpg" alt=""></a></div>
+			        </div>
+			    </div>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa fugiat ad enim, veniam omnis maiores commodi sequi aspernatur perferendis laborum id animi error consequatur facere. Repellendus maxime fugit, voluptate mollitia.</p>
+			   <!--  <div class="owl-dots">
+			        	<div class="owl-dot active"><span></span></div>
+			        	<div class="owl-dot"><span></span></div>
+			        	<div class="owl-dot"><span></span></div>
+			    </div> -->
+			</div>
+			<!-- owl Carousel ends -->
+		</div>	
+	</section>
+	
+	<section class="about-us">
+		<div class="wrapper">
+			<div class="about-us-wrapper">
+				<h1>About Us</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta cum dolor placeat doloribus, adipisci ea ad in odit possimus ex.</p>
+			</div>
+		</div>
+	</section>
+	
 
-		<script>
-      var calculateHeight = function() {
-    		var height = window.innerHeight 
-    		  || document.documentElement.clientHeight 
-    		  || document.body.clientHeight;
+	<section class="worker">
+		
+			<div class="description">
+				<div class="inner-wrapper">
+					<h1>Cayce Pollard</h1>
+					<span class="worker-position">multyverse analist</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repellat tempore enim nihil soluta accusantium ut ad aliquam nisi et dignissimos modi, cumque libero porro, eius nostrum expedita nulla fugit!</p>
+				</div>
+			</div>
+			
+			<div class="descr-photo">
+			</div>
+			<div class="clear-fix"></div>
+	</section>
 
-	      document.getElementById("d1").style.height = height + 'px';
-	      document.getElementById("d2").style.height = height + 'px';
-	      document.getElementById("d3").style.height = height + 'px';
-      };
+	<section class="work">
+		<div class="descr-photo2">
+		</div>
+		<div class="description">
+				
+				<div class="inner-wrapper">
+					<h1>Work</h1>
+					<br/>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquid ab, impedit dolores eum non veniam repellendus iste beatae veritatis in quasi nihil unde enim nostrum illo, id quae. At rem alias rerum eum temporibus enim provident, corrupti eos placeat sunt ipsum deserunt accusamus iure, facilis officiis voluptatibus molestiae animi.</p>
+				</div>
+			</div>
+			<div class="clear-fix"></div>
+	</section>
 
-      calculateHeight();
+	<section class="worker">
+		
+			<div class="description">
+				<div class="inner-wrapper">
+					<h1>Cayce Pollard</h1>
+					<span class="worker-position">multyverse analist</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repellat tempore enim nihil soluta accusantium ut ad aliquam nisi et dignissimos modi, cumque libero porro, eius nostrum expedita nulla fugit!</p>
+				</div>
+			</div>
+			
+			<div class="descr-photo3">
+			</div>
+			<div class="clear-fix"></div>
+	</section>
+	<section class="team">
 
-			window.addEventListener('resize', calculateHeight);
+		<div class="team-wrapper">
+			<h1>Our Team</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fugit exercitationem accusantium atque illo, molestiae cum asperiores. Quod dolor minima eaque vel nulla. Cumque voluptatum adipisci expedita doloribus fugiat nesciunt optio. Corporis dolores cumque provident!</p>
+			
+			<!-- owl carousel starts -->
+			<div id="team_carousel" class="owl-carousel owl-theme owl-loaded">
+			    <div class="owl-stage-outer">
+			        <div class="owl-stage">
+			            <div class="owl-item owl-height card"><div class="foto"><img src="img/team/1.jpg" alt=""></div><br/><span class="name">John Dow</span><span class="name-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, perferendis.</span></div>
+			            <div class="owl-item owl-height card"><div class="foto"><img src="img/team/2.jpg" alt=""></div><br/><span class="name">Anna Dow</span><span class="name-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, perferendis.</span></div>
+			            <div class="owl-item owl-height card"><div class="foto"><img src="img/team/3.jpg" alt=""></div><br/><span class="name">Frank Dow</span><span class="name-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, perferendis.</span></div>
+			            <div class="owl-item owl-height card"><div class="foto"><img src="img/team/4.jpg" alt=""></div><br/><span class="name">Maria Dow</span><span class="name-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, perferendis.</span></div>
+			            <div class="owl-item owl-height card"><div class="foto"><img src="img/team/1.jpg" alt=""></div><br/><span class="name">John Dow</span><span class="name-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, perferendis.</span></div>
+			            <div class="owl-item owl-height card"><div class="foto"><img src="img/team/2.jpg" alt=""></div><br/><span class="name">Anna Dow</span><span class="name-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, perferendis.</span></div>
+			            <div class="owl-item owl-height card"><div class="foto"><img src="img/team/3.jpg" alt=""></div><br/><span class="name">Frank Dow</span><span class="name-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, perferendis.</span></div>
+			            <div class="owl-item owl-height card"><div class="foto"><img src="img/team/4.jpg" alt=""></div><br/><span class="name">Maria Dow</span><span class="name-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, perferendis.</span></div>
+			        </div>
+			    </div>
+			    <!-- <div class="owl-dots">
+			        	<div class="owl-dot active"><span></span></div>
+			        	<div class="owl-dot"><span></span></div>
+			        	<div class="owl-dot"><span></span></div>
+			    </div> -->
+			</div>
+			<!-- owl Carousel ends -->
+		</div>	
+	</section>
+	<footer>
+		<div class="footer-wrapper">
+			<div class="about-me">
+				<h2>About ME</h2>
+				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, odio eos aliquam consequatur sunt quo! Dicta magnam omnis est consectetur. Magnam atque assumenda sunt, dolorum? Delectus nisi esse, libero sunt.</span>
+			</div>
+			<div class="news-letter">
+				<h2>News Letter</h2>
+				<span>Stay updated with our latest trends</span>
+				<br />
+				<input type="email" placeholder="Enter email address">
+				<input type="submit" value="►">
+			</div>
+			<div class="follow-me">
+				<h2>Follow Me</h2>
+				<span>Let us be social</span>
+				<ul>
+					<li><a href="#"><img src="img/social/facebook.svg" alt="facebook"></a></li>
+					<li><a href="#"><img src="img/social/twitter.svg" alt="tweeter"></a></li>
+					<li><a href="#"><img src="img/social/basketball.svg" alt="dribble"></a></li>
+					<li><a href="#"><img src="img/social/behance.svg" alt="behance"></a></li>
+				</ul>
+			</div>
 
-		</script>
-	</body>
-
+		</div>
+		<div class="copyright"><span>Copyright.2020.All rights reserved.</span></div>
+	</footer>
+	<script src="js/jquery3_4_1.js"></script>
+	<script src="libs/OwlCarousel2/js/owl.carousel.js"></script>
+	<script src="js/custom.js"></script>
+</body>
 </html>

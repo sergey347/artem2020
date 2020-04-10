@@ -1,0 +1,382 @@
+
+/*reset css*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #e6e1e0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1{	
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font-family: "NanumGothic";
+}
+.clear-fix{
+	clear: both;
+}
+p{
+	font-family: "RobotoLight";
+}
+/*header css*/
+header>nav>.menu-wrapper{
+	z-index: 999;
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	background-color: #262f41;
+}
+header>nav .menu{
+	max-width: 1024px;
+	height: 34px;
+	margin: auto;
+}
+header>nav .menu ul{
+	float: right;
+	vertical-align: middle;
+	
+}
+.logo{
+
+	color: #fff;
+	font-family: "NanumGothic";
+	display: inline-block;
+	vertical-align: middle;
+	padding: 12px;
+	text-decoration: none;
+	
+}
+header>nav .menu ul{
+	vertical-align: middle;
+	padding: 7px;
+}
+header>nav .menu ul li{
+
+	display: inline-block;
+	padding: 6px 12px;
+
+}
+header>nav .menu ul li a{
+	border: 1px solid transparent;
+	text-decoration: none;
+	color: #FFF;
+	font-family: "NanumGothic";
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 6px 12px;
+	margin: 0px 5px;
+	box-sizing: border-box;
+}
+header>nav .menu ul li a:hover{
+	box-sizing: border-box;
+	border: 1px solid #fff;
+}
+.wrapper, .news-wrapper, .team-wrapper, .footer-wrapper{
+	max-width: 1024px;
+}
+.inner-wrapper{
+	top: 35%;
+	left: 25%;
+	height: auto;
+	position: absolute;
+	width: 410px;
+}
+
+.banner{
+	position: relative;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+	/*background-image: url(../img/baner.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	     -o-background-size: contain;
+	        background-size: contain;*/
+	background-color: #c87742;
+}
+.banner h1{
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	font-size: 50px;
+	font-family: "NanumGothic";
+}
+
+section{
+	margin: auto;
+	max-width: 100%;
+	height: 100vh;
+}
+
+section.news{
+	background-color: #D6E5E6;
+	
+}
+section.news  h1{
+	background-color: #D6E5E6;
+	text-align: center;
+	font-size: 25px;
+	line-height: 25px;
+	margin: 10px 0;
+}
+section .news-wrapper{
+	width: 840px;
+	position: relative;
+	top: 12.5vh;
+	height: 75vh;
+}
+section .news-wrapper p{
+	text-align: center;
+	line-height: 1.5;
+	margin: 15px 0;
+	font-size: 14px;
+}
+
+section .news-wrapper .owl-item{
+}
+
+section .about-us-wrapper{
+	margin: 10% auto;
+	width: 650px;
+	height: 500px;
+	vertical-align: middle;
+	text-align: center;
+	padding: 15% 0;
+	
+}
+section .about-us-wrapper h1{
+	font-family: "NanumGothic";
+	font-size: 25px;
+	margin: 20px;
+}
+section .about-us-wrapper p{
+	font-family: "RobotoLight";
+	font-weight: 100;
+	line-height: 30px;
+}
+
+section .description{
+	position: relative;
+	display: inline-block;
+	width: 50%;
+	height: 100vh;
+	background-color: #d6e5e6;
+	
+}
+section .description h1{
+	margin: 10px 0;
+	font-family: "NanumGothicBold";
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+section .description p{
+	font-family: "RobotoLight";
+	font-size: 14px;
+	font-weight: normal;
+	margin: 10px 0;
+	line-height: 1.5;
+}
+section .worker-position{
+	font-size: 12px;
+	font-family: "RobotoRegular";
+}
+section .descr-photo{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	height: 100vh;
+	background-image: url(../img/worker.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+section .descr-photo2{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	height: 100vh;
+	background-image: url(../img/work.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+section .descr-photo3{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	height: 100vh;
+	background-image: url(../img/worker2.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+section.team .card{
+	margin: 25px 0;
+}
+
+section.team .foto{
+	background-color: none;
+	overflow: hidden;
+	height: 200px;
+	width: 200px;
+	border: 4px solid #fff;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+
+section.team  h1{
+	text-align: center;
+	font-size: 25px;
+	line-height: 25px;
+	margin: 10px 0;
+}
+section.team .team-wrapper{
+	width: 840px;
+	position: relative;
+	top: 12.5vh;
+	height: 75vh;
+}
+section.team .team-wrapper p{
+	text-align: center;
+	line-height: 1.5;
+	margin: 15px 0;
+	font-size: 14px;
+}
+section.team .team-wrapper .name-description{
+	line-height: 1.5;
+	margin: 5px 0;
+	display: inline-block;
+	font-size: 12px;
+	font-family: "RobotoLight", Aral;
+	text-align: center;
+}
+section.team .team-wrapper .name{
+	font-size: 14px;
+	display: block;
+	font-family: "NanumGothicBold";
+	text-align: center;
+}
+footer{
+	display: block;
+	padding: 15px 0;
+	background-color: #000;
+	width: 100%;
+}
+footer .footer-wrapper{
+	margin: 35px auto;
+	display: block;
+	height: 80%;
+}
+footer .footer-wrapper .about-me, .news-letter, .follow-me{
+	margin-top: 5%;
+	display: inline-block;
+	vertical-align: top;
+}
+footer .footer-wrapper .about-me{
+	width: 40%;
+}
+footer .footer-wrapper .news-letter{
+	width: 40%;
+}
+footer .footer-wrapper .follow-me{
+	width: 18%;
+}
+footer .footer-wrapper  h2{
+	margin: 10px auto;
+	color: #FFF;
+	font-family: "NanumGothic";
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+footer .footer-wrapper  span{
+	line-height: 1.3;
+	color: #777;
+	font-size: 12px;
+	font-family: "RobotoRegular";
+	
+}
+footer .footer-wrapper .follow-me ul{
+	margin: 16px auto;
+}
+footer .footer-wrapper .follow-me ul li{
+	float: left;
+	margin: 8px;
+}
+input[type=email]{
+	width: 80%;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	color: #FFF;
+	background: transparent;
+	padding: 5px;
+	margin: 20px auto;
+}
+input[type=submit]{
+	background-color: #5a7b88;
+  	color: white;
+  	padding: 5px 5px;
+  	text-decoration: none;
+  	margin: 4px -29px;
+  	cursor: pointer;
+}
+input[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+footer .copyright span{
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	font-style: italic;
+	color: #FFF;
+	vertical-align: bottom;
+	}
